@@ -9,9 +9,12 @@ const novoAdmin = new Admin('Rodrigo', 'r@r.com', '2020-01-01')
 console.log(novoAdmin.nome)
 novoAdmin.nome = 'André'
 console.log(novoAdmin.nome)
-novoAdmin.nome = ''
-console.log(novoAdmin.nome)
+// novoAdmin.nome = ''
+// console.log(novoAdmin.nome)
+console.log(novoAdmin.exibirInfos())
 
+const novoDocente = new Docente('Guilherme', 'g@g.com', '2022-01-01')
+console.log(novoDocente.exibirInfos())
 
 // novoUser.#nome = 'Márcia';
 // console.log(novoUser.#nome);
